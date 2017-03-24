@@ -10,3 +10,9 @@ def highest_number_cubed(limit):
             return previous_number
         
         previous_number = current_number
+
+    # current_number = 1
+    # while True:
+    #    if current_number ** 3 > limit:
+    #        return current_number - 1
+    #    current_number = current_number + 1
